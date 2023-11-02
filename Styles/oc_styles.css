@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/*
+   Author: Kamden Birk
+	
+   Filename: br_styles.css
+*/
+
+html {
+   background:url(../images/beach.jpg) no-repeat;
+   background-size:1900px 2500px;
+}
+
+
+/*body styles*/
+body {
+   width: 45%;
+   margin: auto;
+   background-color:white;
+}
+
+/*header styles*/
+header {
+   background-image:url(../images/exteriorView.jpg);
+   background-size:1000px 700px;
+   height:700px;
+}
+
+header blockquote {
+   background-color:lightgrey;
+   position:absolute;
+   top:250px; 
+   width:50%;
+}
+/*navigation styles*/
+header img {
+   padding-left:7%;
+}
+
+header nav li a {
+   display:block;
+   width:20%;
+   float:left;
+   border: 2px solid black;
+   border-bottom-left-radius: 30%;
+   border-bottom-right-radius: 30%;
+   text-align: center;
+   padding-bottom:5px;
+   margin-bottom:10px;
+   background-color:rgb(257,257,257);
+}
+/*hero styles*/
+
+blockquote {
+   background: rgba(117,117,117,70%);
+   width:20%;
+   padding:15px;
+   color:white;
+}
+
+/*main styles*/
+main {
+   background: linear-gradient(white,grey);
+   height:750px;
+}
+
+main div.first {
+   width:50%;
+   display:block;
+   float:left;
+   text-align: center;
+   padding-top:40px;
+   line-height:normal;
+}
+
+main img {
+   display:block;
+   width:50%;
+}
+
+main img.side {
+   float: left;
+}
+
+main div.second {
+   position:absolute;
+   width: 50%;
+   display:block;
+   line-height:normal;
+}
